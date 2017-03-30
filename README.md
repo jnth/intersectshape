@@ -1,6 +1,6 @@
 # Intersectshape
 
-Reverse geolocation from a shapefile of polygons.
+Reverse geocoding from a shapefile of polygons.
 
 
 ## How ?

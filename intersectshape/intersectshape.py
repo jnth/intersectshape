@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-"""Reverse geolocation from a shapefile of polygons."""
+"""Reverse geocoding from a shapefile of polygons."""
 
 
 import os
@@ -22,10 +22,10 @@ class ReverseGeolocException(ValueError):
 
 
 class ReverseGeolocShapefile(shapefile.Reader):
-    """Reverse geolocation from a shapefile of polygons."""
+    """Reverse geocoding from a shapefile of polygons."""
 
     def __init__(self, *args, clean_index=False, **kwargs):
-        """Reverse geolocation from a shapefile of polygons.
+        """Reverse geocoding from a shapefile of polygons.
 
         :param args: args of shapefile.Reader
         :param clean_index: True/False to erase existing spatial index.
